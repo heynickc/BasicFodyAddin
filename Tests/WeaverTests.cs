@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using Mono.Cecil;
 using NUnit.Framework;
 
@@ -36,12 +37,21 @@ public class WeaverTests
     }
 
     [Test]
-    public void ValidateHelloWorldIsInjected()
+    public void Pre_weaved_exception_gets_swallowed()
     {
-        var type = assembly.GetType("Hello");
+        var type = assembly.GetType("AssemblyToProcess.OnException");
+        var instance = (dynamic) Activator.CreateInstance(type);
+
+        Assert.DoesNotThrow(() => instance.Swallowed_exception());
+    }
+
+    [Test]
+    public void Expected_weaved_method_throws()
+    {
+        var type = assembly.GetType("AssemblyToProcess.OnException");
         var instance = (dynamic)Activator.CreateInstance(type);
 
-        Assert.AreEqual("Hello World", instance.World());
+        Assert.Throws<Exception>(() => instance.Expected_unswallowed_exception());
     }
 
 #if(DEBUG)

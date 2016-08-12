@@ -1,0 +1,461 @@
+Build started 8/12/2016 2:52:47 PM.
+Overriding target "GetFrameworkPaths" in project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" with target "GetFrameworkPaths" from project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets".
+Overriding target "SatelliteDllsProjectOutputGroup" in project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" with target "SatelliteDllsProjectOutputGroup" from project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets".
+Project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" on node 1 (default targets).
+Building with tools version "4.0".
+Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (entry point):
+Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Message"
+  Configuration=Debug
+Done executing task "Message".
+Task "Message"
+  Platform=AnyCPU
+Done executing task "Message".
+Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('bin\Debug\' != '' and !HasTrailingSlash('bin\Debug\')).
+Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+Done building target "_CheckForInvalidConfigurationAndPlatform" in project "BasicFodyAddin.csproj".
+Target "EntityDeploy" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+Target "BeforeBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "Build" depends on it):
+Done building target "BeforeBuild" in project "BasicFodyAddin.csproj".
+Target "BuildOnlySettings" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CoreBuild" depends on it):
+Done building target "BuildOnlySettings" in project "BasicFodyAddin.csproj".
+Target "GetFrameworkPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "PrepareForBuild" depends on it):
+Done building target "GetFrameworkPaths" in project "BasicFodyAddin.csproj".
+Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+Target "GetReferenceAssemblyPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "PrepareForBuild" depends on it):
+Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+Done building target "GetReferenceAssemblyPaths" in project "BasicFodyAddin.csproj".
+Target "PrepareForBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CoreBuild" depends on it):
+Using "FindAppConfigFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "FindAppConfigFile"
+Done executing task "FindAppConfigFile".
+Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "MakeDir"
+Done executing task "MakeDir".
+Done building target "PrepareForBuild" in project "BasicFodyAddin.csproj".
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "BeforeResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "ResolveReferences" depends on it):
+Done building target "BeforeResolveReferences" in project "BasicFodyAddin.csproj".
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "_SplitProjectReferencesByFileExistence" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "ResolveProjectReferences" depends on it):
+Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as (''=='true' and ''!='').
+Done building target "_SplitProjectReferencesByFileExistence" in project "BasicFodyAddin.csproj".
+Target "ResolveProjectReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "ResolveReferences" depends on it):
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '10.0' != '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '10.0' == '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and '' != 'true' and 'true' == 'true' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+Done building target "ResolveProjectReferences" in project "BasicFodyAddin.csproj".
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "GetFrameworkPaths" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target "GetInstalledSDKLocations" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "ResolveSDKReferences" depends on it):
+Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+Done building target "GetInstalledSDKLocations" in project "BasicFodyAddin.csproj".
+Target "ResolveSDKReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "ResolveAssemblyReferences" depends on it):
+Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+Done building target "ResolveSDKReferences" in project "BasicFodyAddin.csproj".
+Target "ResolveSDKReferences" skipped. Previously built successfully.
+Target "ExpandSDKReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "ResolveAssemblyReferences" depends on it):
+Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+Done building target "ExpandSDKReferences" in project "BasicFodyAddin.csproj".
+Target "ResolveAssemblyReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "ResolveReferences" depends on it):
+Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ResolveAssemblyReference"
+  TargetFrameworkMoniker:
+      .NETFramework,Version=v4.0
+  TargetFrameworkMonikerDisplayName:
+      .NET Framework 4
+  TargetedRuntimeVersion:
+      v4.0.30319
+  Assemblies:
+      Mono.Cecil
+          HintPath = '..\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.dll'
+      Mono.Cecil.Mdb
+          HintPath = '..\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Mdb.dll'
+      Mono.Cecil.Pdb
+          HintPath = '..\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Pdb.dll'
+      Mono.Cecil.Rocks
+          HintPath = '..\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Rocks.dll'
+      System
+      System.Xml
+      System.Xml.Linq
+      System.Core
+  AssemblyFiles:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll
+  CandidateAssemblyFiles:
+  TargetFrameworkDirectories:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+  InstalledAssemblyTables:
+  IgnoreInstalledAssemblyTable:
+      False
+  SearchPaths:
+      {CandidateAssemblyFiles}
+      {HintPathFromItem}
+      {TargetFrameworkDirectory}
+      {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}
+      {AssemblyFolders}
+      {GAC}
+      {RawFileName}
+      bin\Debug\
+  AllowedAssemblyExtensions:
+      .winmd
+      .dll
+      .exe
+  AllowedRelatedFileExtensions:
+      .pdb
+      .xml
+      .pri
+  AppConfigFile:
+      
+  AutoUnify:
+      True
+  CopyLocalDependenciesWhenParentReferenceInGac:
+      True
+  FindDependencies:
+      True
+  TargetProcessorArchitecture:
+      msil
+  StateFile:
+      obj\Debug\BasicFodyAddin.csprojResolveAssemblyReference.cache
+  InstalledAssemblySubsetTables:
+  IgnoreInstalledAssemblySubsetTable:
+      False
+  TargetFrameworkSubsets:
+  FullTargetFrameworkSubsetNames:
+      Full
+  ProfileName:
+      
+  FullFrameworkFolders:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+  LatestTargetFrameworkDirectories:
+  ProfileTablesLocation:
+  Primary reference "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll".
+      Reference found at search path location "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll".
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Mono.Cecil, Version=0.9.6.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756".
+      Resolved file path is "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.pdb".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Mono.Cecil.Mdb, Version=0.9.6.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756".
+      Resolved file path is "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Mdb.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Mdb.pdb".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Mono.Cecil.Pdb, Version=0.9.6.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756".
+      Resolved file path is "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Pdb.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Pdb.pdb".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Mono.Cecil.Rocks, Version=0.9.6.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756".
+      Resolved file path is "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Rocks.dll".
+      Reference found at search path location "{HintPathFromItem}".
+      Found related file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Rocks.pdb".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+Done executing task "ResolveAssemblyReference".
+Done building target "ResolveAssemblyReferences" in project "BasicFodyAddin.csproj".
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target "AfterResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "ResolveReferences" depends on it):
+Done building target "AfterResolveReferences" in project "BasicFodyAddin.csproj".
+Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+Target "ResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CoreBuild" depends on it):
+Done building target "ResolveReferences" in project "BasicFodyAddin.csproj".
+Target "XamlMarkupCompilePass1" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileReadGeneratedFileList" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileAddFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompilePass2" skipped, due to false condition; ('$(XamlRequiresCompilationPass2)' == 'true' ) was evaluated as ('false' == 'true' ).
+Target "XamlMarkupCompileReadPass2Flag" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileAddExtensionFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "MarkupCompilePass1" skipped, due to false condition; ('@(Page)' != '' or '@(ApplicationDefinition)' != '' ) was evaluated as ('' != '' or '' != '' ).
+Target "AfterMarkupCompilePass1" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "PrepareResources" depends on it):
+Done building target "AfterMarkupCompilePass1" in project "BasicFodyAddin.csproj".
+Target "MarkupCompilePass2ForMainAssembly" skipped, due to false condition; ('$(_RequireMCPass2ForMainAssembly)' == 'true' ) was evaluated as ('false' == 'true' ).
+Target "FileClassification" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "PrepareResources" depends on it):
+Task "FileClassifier" skipped, due to false condition; ('@(GeneratedBaml)' != '' or '@(Resource)' != '' or '@(Font)' != '') was evaluated as ('' != '' or '' != '' or '' != '').
+Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+Done building target "FileClassification" in project "BasicFodyAddin.csproj".
+Target "MainResourcesGeneration" skipped, due to false condition; ('@(MainEmbeddedFiles)' != '') was evaluated as ('' != '').
+Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+Target "AssignTargetPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "PrepareResourceNames" depends on it):
+Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.config'=='.manifest').
+Done building target "AssignTargetPaths" in project "BasicFodyAddin.csproj".
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target "SplitResourcesByCulture" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "PrepareResourceNames" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "AssignCulture"
+Done executing task "AssignCulture".
+Done building target "SplitResourcesByCulture" in project "BasicFodyAddin.csproj".
+Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+Target "CreateCustomManifestResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "PrepareResourceNames" depends on it):
+Done building target "CreateCustomManifestResourceNames" in project "BasicFodyAddin.csproj".
+Target "PrepareResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "PrepareResources" depends on it):
+Done building target "PrepareResourceNames" in project "BasicFodyAddin.csproj".
+Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+Target "SplitResourcesByCulture" skipped. Previously built successfully.
+Target "BeforeResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "ResGen" depends on it):
+Done building target "BeforeResGen" in project "BasicFodyAddin.csproj".
+Target "CoreResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "ResGen" depends on it):
+Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' != 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CLR4' != 'CLR2').
+Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' == 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CLR4' == 'CLR2').
+Done building target "CoreResGen" in project "BasicFodyAddin.csproj".
+Target "AfterResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "ResGen" depends on it):
+Done building target "AfterResGen" in project "BasicFodyAddin.csproj".
+Target "ResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "PrepareResources" depends on it):
+Done building target "ResGen" in project "BasicFodyAddin.csproj".
+Target "CompileLicxFiles" skipped, due to false condition; ('@(_LicxFile)'!='') was evaluated as (''!='').
+Target "PrepareRdlFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v10.0\ReportingServices\Microsoft.ReportingServices.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CompileRdlFiles" depends on it):
+Task "CreateItem" skipped, due to false condition; ('%(Extension)'=='.rdlc') was evaluated as (''=='.rdlc').
+Done building target "PrepareRdlFiles" in project "BasicFodyAddin.csproj".
+Target "RunRdlCompiler" skipped, due to false condition; ('@(RdlFile)'!='') was evaluated as (''!='').
+Target "CompileRdlFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v10.0\ReportingServices\Microsoft.ReportingServices.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "PrepareResources" depends on it):
+Done building target "CompileRdlFiles" in project "BasicFodyAddin.csproj".
+Target "PrepareResources" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CoreBuild" depends on it):
+Done building target "PrepareResources" in project "BasicFodyAddin.csproj".
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or false == 'true').
+Target "ResolveReferences" skipped. Previously built successfully.
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or false == 'true').
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "_SetExternalWin32ManifestProperties" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='') was evaluated as (''=='true' or ''!='' or ''!='').
+Target "_SetEmbeddedWin32ManifestProperties" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "SetWin32ManifestProperties" depends on it):
+Using "GetFrameworkPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "GetFrameworkPath"
+Done executing task "GetFrameworkPath".
+Done building target "_SetEmbeddedWin32ManifestProperties" in project "BasicFodyAddin.csproj".
+Target "SetWin32ManifestProperties" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "Compile" depends on it):
+Done building target "SetWin32ManifestProperties" in project "BasicFodyAddin.csproj".
+Target "_GenerateCompileInputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "Compile" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithNoCulture)'!='' and '%(ManifestResourceWithNoCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithNoCultureOnDisk)'!='' and '%(ManifestNonResxWithNoCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Done building target "_GenerateCompileInputs" in project "BasicFodyAddin.csproj".
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "_SetTargetFrameworkMonikerAttribute" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "GenerateTargetFrameworkMonikerAttribute" depends on it):
+Done building target "_SetTargetFrameworkMonikerAttribute" in project "BasicFodyAddin.csproj".
+Target "GenerateTargetFrameworkMonikerAttribute" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "BeforeCompile" depends on it):
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+Input files: C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets
+Output files: C:\Users\nchamberlain\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs
+Done building target "GenerateTargetFrameworkMonikerAttribute" in project "BasicFodyAddin.csproj".
+Target "GenerateAdditionalSources" skipped, due to false condition; ('@(AssemblyAttributes)' != '' and '$(GenerateAdditionalSources)' == 'true') was evaluated as ('' != '' and '' == 'true').
+Target "BeforeCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "Compile" depends on it):
+Done building target "BeforeCompile" in project "BasicFodyAddin.csproj".
+Target "_TimeStampBeforeCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+Target "_ComputeNonExistentFileProperty" skipped, due to false condition; (('$(BuildingInsideVisualStudio)' == 'true') and ('$(BuildingOutOfProcess)' != 'true') and (('$(BuildingProject)' == 'false') or ('$(UseHostCompilerIfAvailable)' == 'true'))) was evaluated as (('' == 'true') and ('' != 'true') and (('true' == 'false') or ('true' == 'true'))).
+Target "PreXsdCodeGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CoreCompile" depends on it):
+Using "CallTarget" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "CallTarget"
+Target "CleanXsdCodeGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "PreXsdCodeGen" depends on it):
+Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Delete"
+Done executing task "Delete".
+Done building target "CleanXsdCodeGen" in project "BasicFodyAddin.csproj".
+Done executing task "CallTarget".
+Done building target "PreXsdCodeGen" in project "BasicFodyAddin.csproj".
+Target "XsdCodeGen" skipped, due to false condition; ( '$(XsdCodeGenPreCondition)' == 'True' ) was evaluated as ( 'False' == 'True' ).
+Target "CoreCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "Compile" depends on it):
+Building target "CoreCompile" completely.
+Input file "ModuleWeaver.cs" is newer than output file "obj\Debug\BasicFodyAddin.Fody.pdb".
+Using "Csc" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Csc"
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva- /reference:C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.dll /reference:C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Mdb.dll /reference:C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Pdb.dll /reference:C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Rocks.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\BasicFodyAddin.Fody.dll /target:library /utf8output AssemblyInfo.cs ModuleWeaver.cs WeavingException.cs "C:\Users\nchamberlain\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+  Microsoft (R) Visual C# Compiler version 4.6.1055.0
+  
+  for C# 5
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  
+  
+  This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+  
+Done executing task "Csc".
+Task "CallTarget" skipped, due to false condition; ('$(TargetsTriggeredByCompilation)' != '') was evaluated as ('' != '').
+Done building target "CoreCompile" in project "BasicFodyAddin.csproj".
+Target "_TimeStampAfterCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+Target "AfterCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "Compile" depends on it):
+Done building target "AfterCompile" in project "BasicFodyAddin.csproj".
+Target "PrepareResourcesForSatelliteAssemblies" skipped, due to false condition; ('$(UICulture)' != '') was evaluated as ('' != '').
+Target "MergeLocalizationDirectives" skipped, due to false condition; ('@(GeneratedLocalizationFiles)' !='') was evaluated as ('' !='').
+Target "AfterCompileWinFX" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "_AfterCompileWinFXInternal" depends on it):
+Done building target "AfterCompileWinFX" in project "BasicFodyAddin.csproj".
+Target "_AfterCompileWinFXInternal" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "Compile" depends on it):
+Done building target "_AfterCompileWinFXInternal" in project "BasicFodyAddin.csproj".
+Target "Compile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CoreBuild" depends on it):
+Done building target "Compile" in project "BasicFodyAddin.csproj".
+Target "ExportWindowsMDFile" skipped, due to false condition; ('$(ExportWinMDFile)' == 'true') was evaluated as ('' == 'true').
+Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'Library' != 'library') or
+                    ('' == '')) and
+                   Exists('obj\BasicFodyAddin.csproj.UnmanagedRegistration.cache')).
+Target "GenerateSerializationAssemblies" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target "_GenerateSatelliteAssemblyInputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CreateSatelliteAssemblies" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Done building target "_GenerateSatelliteAssemblyInputs" in project "BasicFodyAddin.csproj".
+Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+Target "CreateSatelliteAssemblies" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CoreBuild" depends on it):
+Done building target "CreateSatelliteAssemblies" in project "BasicFodyAddin.csproj".
+Target "GenerateManifests" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='' or '$(GenerateAppxManifest)' == 'true') was evaluated as (''=='true' or ''!='' or ''!='' or '' == 'true').
+Target "GetTargetPath" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CoreBuild" depends on it):
+Done building target "GetTargetPath" in project "BasicFodyAddin.csproj".
+Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+Target "_CopyFilesMarkedCopyLocal" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+Using "Copy" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Copy"
+  Did not copy from file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.dll" to file "bin\Debug\Mono.Cecil.dll" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+  Did not copy from file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Mdb.dll" to file "bin\Debug\Mono.Cecil.Mdb.dll" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+  Did not copy from file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Pdb.dll" to file "bin\Debug\Mono.Cecil.Pdb.dll" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+  Did not copy from file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Rocks.dll" to file "bin\Debug\Mono.Cecil.Rocks.dll" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+  Did not copy from file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.pdb" to file "bin\Debug\Mono.Cecil.pdb" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+  Did not copy from file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Mdb.pdb" to file "bin\Debug\Mono.Cecil.Mdb.pdb" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+  Did not copy from file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Pdb.pdb" to file "bin\Debug\Mono.Cecil.Pdb.pdb" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+  Did not copy from file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\packages\FodyCecil.1.29.4\lib\net40\Mono.Cecil.Rocks.pdb" to file "bin\Debug\Mono.Cecil.Rocks.pdb" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+Done executing task "Copy".
+Done building target "_CopyFilesMarkedCopyLocal" in project "BasicFodyAddin.csproj".
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "BasicFodyAddin.csproj".
+Target "GetCopyToOutputDirectoryItems" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Done building target "GetCopyToOutputDirectoryItems" in project "BasicFodyAddin.csproj".
+Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopySourceItemsToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+Done building target "_CopySourceItemsToOutputDirectory" in project "BasicFodyAddin.csproj".
+Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+Target "_CheckForCompileOutputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+Done building target "_CheckForCompileOutputs" in project "BasicFodyAddin.csproj".
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target "CopyFilesToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "PrepareForRun" depends on it):
+Task "Copy"
+  Copying file from "obj\Debug\BasicFodyAddin.Fody.dll" to "bin\Debug\BasicFodyAddin.Fody.dll".
+Done executing task "Copy".
+Task "Message"
+  BasicFodyAddin -> C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\BasicFodyAddin.Fody.dll
+Done executing task "Message".
+Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+Task "Copy"
+  Copying file from "obj\Debug\BasicFodyAddin.Fody.pdb" to "bin\Debug\BasicFodyAddin.Fody.pdb".
+Done executing task "Copy".
+Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+Done building target "CopyFilesToOutputDirectory" in project "BasicFodyAddin.csproj".
+Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+Target "PrepareForRun" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CoreBuild" depends on it):
+Done building target "PrepareForRun" in project "BasicFodyAddin.csproj".
+Target "UnmanagedRegistration" skipped, due to false condition; ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library') was evaluated as (''=='true' and 'Library'=='library').
+Target "_CheckForCompileOutputs" skipped. Previously built successfully.
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target "_CleanGetCurrentAndPriorFileWrites" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "IncrementalClean" depends on it):
+Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ReadLinesFromFile"
+Done executing task "ReadLinesFromFile".
+Using "ConvertToAbsolutePath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ConvertToAbsolutePath"
+Done executing task "ConvertToAbsolutePath".
+Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "FindUnderPath"
+  Comparison path is "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "bin\Debug\".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "obj\Debug\".
+Done executing task "FindUnderPath".
+Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "RemoveDuplicates"
+Done executing task "RemoveDuplicates".
+Done building target "_CleanGetCurrentAndPriorFileWrites" in project "BasicFodyAddin.csproj".
+Target "IncrementalClean" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "CoreBuild" depends on it):
+Task "FindUnderPath"
+  Comparison path is "bin\Debug\".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "obj\Debug\".
+Done executing task "FindUnderPath".
+Task "Delete"
+Done executing task "Delete".
+Task "RemoveDuplicates"
+Done executing task "RemoveDuplicates".
+Task "WriteLinesToFile" skipped, due to false condition; ('@(_CleanUnfilteredPriorFileWrites)'!='@(_CleanUniqueRemainingFileWritesAfterIncrementalClean)') was evaluated as ('C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\BasicFodyAddin.Fody.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\BasicFodyAddin.Fody.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.Mdb.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.Pdb.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.Rocks.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.Mdb.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.Pdb.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.Rocks.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\obj\Debug\BasicFodyAddin.csprojResolveAssemblyReference.cache;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\obj\Debug\BasicFodyAddin.Fody.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\obj\Debug\BasicFodyAddin.Fody.pdb'!='C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\BasicFodyAddin.Fody.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\BasicFodyAddin.Fody.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.Mdb.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.Pdb.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.Rocks.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.Mdb.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.Pdb.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\bin\Debug\Mono.Cecil.Rocks.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\obj\Debug\BasicFodyAddin.csprojResolveAssemblyReference.cache;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\obj\Debug\BasicFodyAddin.Fody.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\obj\Debug\BasicFodyAddin.Fody.pdb').
+Done building target "IncrementalClean" in project "BasicFodyAddin.csproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '' and ('$(RunPostBuildEvent)' != 'OnOutputUpdated' or '$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)')) was evaluated as ('' != '' and ('' != 'OnOutputUpdated' or '' != '')).
+Target "CoreBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "Build" depends on it):
+Done building target "CoreBuild" in project "BasicFodyAddin.csproj".
+Target "AfterBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (target "Build" depends on it):
+Done building target "AfterBuild" in project "BasicFodyAddin.csproj".
+Target "Build" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (entry point):
+Done building target "Build" in project "BasicFodyAddin.csproj".
+Done Building Project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\BasicFodyAddin\BasicFodyAddin.csproj" (default targets).
+
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33

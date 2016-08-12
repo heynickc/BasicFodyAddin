@@ -1,0 +1,1012 @@
+Build started 8/12/2016 2:51:19 PM.
+Overriding target "GetFrameworkPaths" in project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" with target "GetFrameworkPaths" from project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets".
+Overriding target "SatelliteDllsProjectOutputGroup" in project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" with target "SatelliteDllsProjectOutputGroup" from project "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets".
+Project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" on node 1 (default targets).
+Building with tools version "4.0".
+Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (entry point):
+Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Message"
+  Configuration=Debug
+Done executing task "Message".
+Task "Message"
+  Platform=AnyCPU
+Done executing task "Message".
+Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('bin\Debug\' != '' and !HasTrailingSlash('bin\Debug\')).
+Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+Done building target "_CheckForInvalidConfigurationAndPlatform" in project "AssemblyToProcess.csproj".
+Target "EntityDeploy" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+Target "BeforeBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "Build" depends on it):
+Done building target "BeforeBuild" in project "AssemblyToProcess.csproj".
+Target "BuildOnlySettings" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CoreBuild" depends on it):
+Done building target "BuildOnlySettings" in project "AssemblyToProcess.csproj".
+Target "GetFrameworkPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "PrepareForBuild" depends on it):
+Done building target "GetFrameworkPaths" in project "AssemblyToProcess.csproj".
+Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+Target "GetReferenceAssemblyPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "PrepareForBuild" depends on it):
+Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+Done building target "GetReferenceAssemblyPaths" in project "AssemblyToProcess.csproj".
+Target "PrepareForBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CoreBuild" depends on it):
+Using "FindAppConfigFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "FindAppConfigFile"
+Done executing task "FindAppConfigFile".
+Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "MakeDir"
+Done executing task "MakeDir".
+Done building target "PrepareForBuild" in project "AssemblyToProcess.csproj".
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "BeforeResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "ResolveReferences" depends on it):
+Done building target "BeforeResolveReferences" in project "AssemblyToProcess.csproj".
+Target "AssignProjectConfiguration" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "ResolveReferences" depends on it):
+Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "AssignProjectConfiguration"
+  Project reference "..\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" has not been resolved.
+Done executing task "AssignProjectConfiguration".
+Done building target "AssignProjectConfiguration" in project "AssemblyToProcess.csproj".
+Target "AssignProjectConfiguration" skipped. Previously built successfully.
+Target "_SplitProjectReferencesByFileExistence" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "ResolveProjectReferences" depends on it):
+Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as (''=='true' and '..\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj'!='').
+Done building target "_SplitProjectReferencesByFileExistence" in project "AssemblyToProcess.csproj".
+Target "ResolveProjectReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "ResolveReferences" depends on it):
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and '..\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj' != '' and ('' == 'true' or 'true' != 'true') and '10.0' != '10.0' and '..\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and '..\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj' != '' and ('' == 'true' or 'true' != 'true') and '10.0' == '10.0' and '..\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj' != '').
+Using "MSBuild" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "MSBuild"
+Project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (1) is building "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (2) on node 1 (default targets).
+Building with tools version "4.0".
+Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (entry point):
+Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+Task "Message"
+  Configuration=Debug
+Done executing task "Message".
+Task "Message"
+  Platform=AnyCPU
+Done executing task "Message".
+Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('bin\Debug\' != '' and !HasTrailingSlash('bin\Debug\')).
+Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+Done building target "_CheckForInvalidConfigurationAndPlatform" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "_CheckForInvalidTargetFrameworkProfile" in file "C:\Program Files (x86)\MSBuild\Microsoft\Portable\Microsoft.Portable.Core.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (entry point):
+Task "Error" skipped, due to false condition; ('$(TargetFrameworkProfile)' == '' AND '$(PortableNuGetMode)' != 'true') was evaluated as ('Profile136' == '' AND '' != 'true').
+Done building target "_CheckForInvalidTargetFrameworkProfile" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "BeforeBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "Build" depends on it):
+Done building target "BeforeBuild" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "BuildOnlySettings" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CoreBuild" depends on it):
+Done building target "BuildOnlySettings" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "GetFrameworkPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "PrepareForBuild" depends on it):
+Done building target "GetFrameworkPaths" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "GetReferenceAssemblyPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "PrepareForBuild" depends on it):
+Using "GetReferenceAssemblyPaths" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "GetReferenceAssemblyPaths"
+Done executing task "GetReferenceAssemblyPaths".
+Done building target "GetReferenceAssemblyPaths" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "_SetFullFrameworkFolderToProfile" in file "C:\Program Files (x86)\MSBuild\Microsoft\Portable\Microsoft.Portable.Core.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "PrepareForBuild" depends on it):
+Done building target "_SetFullFrameworkFolderToProfile" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "PrepareForBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CoreBuild" depends on it):
+Task "FindAppConfigFile"
+Done executing task "FindAppConfigFile".
+Task "MakeDir"
+Done executing task "MakeDir".
+Done building target "PrepareForBuild" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "BeforeResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "ResolveReferences" depends on it):
+Done building target "BeforeResolveReferences" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "_SplitProjectReferencesByFileExistence" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "ResolveProjectReferences" depends on it):
+Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as (''=='true' and ''!='').
+Done building target "_SplitProjectReferencesByFileExistence" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ResolveProjectReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "ResolveReferences" depends on it):
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '10.0' != '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '10.0' == '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and '' != 'true' and 'true' == 'true' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+Done building target "ResolveProjectReferences" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "GetFrameworkPaths" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target "GetInstalledSDKLocations" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "ResolveSDKReferences" depends on it):
+Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+Done building target "GetInstalledSDKLocations" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ResolveSDKReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "ResolveAssemblyReferences" depends on it):
+Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+Done building target "ResolveSDKReferences" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ResolveSDKReferences" skipped. Previously built successfully.
+Target "ExpandSDKReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "ResolveAssemblyReferences" depends on it):
+Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+Done building target "ExpandSDKReferences" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ResolveAssemblyReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "ResolveReferences" depends on it):
+Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ResolveAssemblyReference"
+  TargetFrameworkMoniker:
+      .NETPortable,Version=v4.0,Profile=Profile136
+  TargetFrameworkMonikerDisplayName:
+      .NET Portable Subset
+  TargetedRuntimeVersion:
+      
+  Assemblies:
+  AssemblyFiles:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\mscorlib.dll
+  CandidateAssemblyFiles:
+  TargetFrameworkDirectories:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\
+  InstalledAssemblyTables:
+  IgnoreInstalledAssemblyTable:
+      False
+  SearchPaths:
+      {CandidateAssemblyFiles}
+      {HintPathFromItem}
+      {TargetFrameworkDirectory}
+      {Registry:,v4.0,}
+      {RawFileName}
+  AllowedAssemblyExtensions:
+      .winmd
+      .dll
+      .exe
+  AllowedRelatedFileExtensions:
+      .pdb
+      .xml
+      .pri
+  AppConfigFile:
+      
+  AutoUnify:
+      True
+  CopyLocalDependenciesWhenParentReferenceInGac:
+      True
+  FindDependencies:
+      True
+  TargetProcessorArchitecture:
+      msil
+  StateFile:
+      obj\Debug\UnSwallowExceptionsReferenceAssembly.csprojResolveAssemblyReference.cache
+  InstalledAssemblySubsetTables:
+  IgnoreInstalledAssemblySubsetTable:
+      False
+  TargetFrameworkSubsets:
+  FullTargetFrameworkSubsetNames:
+      Full
+  ProfileName:
+      Profile136
+  FullFrameworkFolders:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\
+  LatestTargetFrameworkDirectories:
+  ProfileTablesLocation:
+  A TargetFramework profile exclusion list will be generated.
+  Primary reference "mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\mscorlib.dll".
+      Reference found at search path location "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\mscorlib.dll".
+      This reference is not "CopyLocal" because it's in a Frameworks directory.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+Done executing task "ResolveAssemblyReference".
+Done building target "ResolveAssemblyReferences" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target "AfterResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "ResolveReferences" depends on it):
+Done building target "AfterResolveReferences" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "ImplicitlyExpandTargetFramework" in file "C:\Program Files (x86)\MSBuild\Microsoft\Portable\Microsoft.Portable.Core.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "ResolveReferences" depends on it):
+Task "Message"
+  TargetMonikerDisplayName: .NET Portable Subset ReferenceAssemblyPaths: C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\
+Done executing task "Message".
+Task "Message" skipped, due to false condition; ('%(ReferencePath.ResolvedFrom)' == 'ImplicitlyExpandTargetFramework') was evaluated as ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\mscorlib.dll' == 'ImplicitlyExpandTargetFramework').
+Task "Message"
+  Including C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\mscorlib.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.Core.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.Net.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.Runtime.Serialization.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.ServiceModel.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.ServiceModel.Web.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.Xml.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.Xml.Serialization.dll
+Done executing task "Message".
+Done building target "ImplicitlyExpandTargetFramework" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CoreBuild" depends on it):
+Done building target "ResolveReferences" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "XamlMarkupCompilePass1" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileReadGeneratedFileList" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileAddFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompilePass2" skipped, due to false condition; ('$(XamlRequiresCompilationPass2)' == 'true' ) was evaluated as ('false' == 'true' ).
+Target "XamlMarkupCompileReadPass2Flag" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileAddExtensionFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "AssignTargetPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "PrepareResourceNames" depends on it):
+Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+Done building target "AssignTargetPaths" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target "SplitResourcesByCulture" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "PrepareResourceNames" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "AssignCulture"
+Done executing task "AssignCulture".
+Done building target "SplitResourcesByCulture" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+Target "CreateCustomManifestResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "PrepareResourceNames" depends on it):
+Done building target "CreateCustomManifestResourceNames" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "PrepareResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "PrepareResources" depends on it):
+Done building target "PrepareResourceNames" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+Target "SplitResourcesByCulture" skipped. Previously built successfully.
+Target "BeforeResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "ResGen" depends on it):
+Done building target "BeforeResGen" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "CoreResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "ResGen" depends on it):
+Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' != 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CLR4' != 'CLR2').
+Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' == 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CLR4' == 'CLR2').
+Done building target "CoreResGen" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "AfterResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "ResGen" depends on it):
+Done building target "AfterResGen" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "PrepareResources" depends on it):
+Done building target "ResGen" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "CompileLicxFiles" skipped, due to false condition; ('@(_LicxFile)'!='') was evaluated as (''!='').
+Target "PrepareRdlFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v10.0\ReportingServices\Microsoft.ReportingServices.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CompileRdlFiles" depends on it):
+Task "CreateItem" skipped, due to false condition; ('%(Extension)'=='.rdlc') was evaluated as (''=='.rdlc').
+Done building target "PrepareRdlFiles" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "RunRdlCompiler" skipped, due to false condition; ('@(RdlFile)'!='') was evaluated as (''!='').
+Target "CompileRdlFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v10.0\ReportingServices\Microsoft.ReportingServices.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "PrepareResources" depends on it):
+Done building target "CompileRdlFiles" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "PrepareResources" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CoreBuild" depends on it):
+Done building target "PrepareResources" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+Target "ResolveReferences" skipped. Previously built successfully.
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "_SetExternalWin32ManifestProperties" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='') was evaluated as (''=='true' or ''!='' or ''!='').
+Target "_SetEmbeddedWin32ManifestProperties" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "SetWin32ManifestProperties" depends on it):
+Using "GetFrameworkPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "GetFrameworkPath"
+Done executing task "GetFrameworkPath".
+Done building target "_SetEmbeddedWin32ManifestProperties" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "SetWin32ManifestProperties" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "Compile" depends on it):
+Done building target "SetWin32ManifestProperties" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "_GenerateCompileInputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "Compile" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithNoCulture)'!='' and '%(ManifestResourceWithNoCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithNoCultureOnDisk)'!='' and '%(ManifestNonResxWithNoCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Done building target "_GenerateCompileInputs" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "_SetTargetFrameworkMonikerAttribute" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "GenerateTargetFrameworkMonikerAttribute" depends on it):
+Done building target "_SetTargetFrameworkMonikerAttribute" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "GenerateTargetFrameworkMonikerAttribute" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "BeforeCompile" depends on it):
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+Input files: C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets
+Output files: C:\Users\nchamberlain\AppData\Local\Temp\.NETPortable,Version=v4.0,Profile=Profile136.AssemblyAttributes.cs
+Done building target "GenerateTargetFrameworkMonikerAttribute" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "GenerateAdditionalSources" skipped, due to false condition; ('@(AssemblyAttributes)' != '' and '$(GenerateAdditionalSources)' == 'true') was evaluated as ('' != '' and '' == 'true').
+Target "BeforeCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "Compile" depends on it):
+Done building target "BeforeCompile" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "_TimeStampBeforeCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+Target "_ComputeNonExistentFileProperty" skipped, due to false condition; (('$(BuildingInsideVisualStudio)' == 'true') and ('$(BuildingOutOfProcess)' != 'true') and (('$(BuildingProject)' == 'false') or ('$(UseHostCompilerIfAvailable)' == 'true'))) was evaluated as (('' == 'true') and ('' != 'true') and (('true' == 'false') or ('true' == 'true'))).
+Target "PreXsdCodeGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CoreCompile" depends on it):
+Using "CallTarget" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "CallTarget"
+Target "CleanXsdCodeGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "PreXsdCodeGen" depends on it):
+Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Delete"
+Done executing task "Delete".
+Done building target "CleanXsdCodeGen" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Done executing task "CallTarget".
+Done building target "PreXsdCodeGen" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "XsdCodeGen" skipped, due to false condition; ( '$(XsdCodeGenPreCondition)' == 'True' ) was evaluated as ( 'False' == 'True' ).
+Target "CoreCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "Compile" depends on it):
+Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+Input files: UnSwallowExceptionsAttribute.cs;Properties\AssemblyInfo.cs;C:\Users\nchamberlain\AppData\Local\Temp\.NETPortable,Version=v4.0,Profile=Profile136.AssemblyAttributes.cs;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\mscorlib.dll;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\mscorlib.dll;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.Core.dll;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.dll;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.Net.dll;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.Runtime.Serialization.dll;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.ServiceModel.dll;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.ServiceModel.Web.dll;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.Xml.dll;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile136\System.Xml.Serialization.dll;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets;C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets
+Output files: obj\Debug\UnSwallowExceptionsReferenceAssembly.dll;obj\Debug\UnSwallowExceptionsReferenceAssembly.pdb
+Done building target "CoreCompile" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "_TimeStampAfterCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+Target "AfterCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "Compile" depends on it):
+Done building target "AfterCompile" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "Compile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CoreBuild" depends on it):
+Done building target "Compile" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ExportWindowsMDFile" skipped, due to false condition; ('$(ExportWinMDFile)' == 'true') was evaluated as ('' == 'true').
+Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'Library' != 'library') or
+                    ('' == '')) and
+                   Exists('obj\UnSwallowExceptionsReferenceAssembly.csproj.UnmanagedRegistration.cache')).
+Target "GenerateSerializationAssemblies" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target "_GenerateSatelliteAssemblyInputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CreateSatelliteAssemblies" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Done building target "_GenerateSatelliteAssemblyInputs" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+Target "CreateSatelliteAssemblies" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CoreBuild" depends on it):
+Done building target "CreateSatelliteAssemblies" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "GenerateManifests" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='' or '$(GenerateAppxManifest)' == 'true') was evaluated as (''=='true' or ''!='' or ''!='' or '' == 'true').
+Target "GetTargetPath" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CoreBuild" depends on it):
+Done building target "GetTargetPath" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "GetCopyToOutputDirectoryItems" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Done building target "GetCopyToOutputDirectoryItems" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopySourceItemsToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+Done building target "_CopySourceItemsToOutputDirectory" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+Target "_CheckForCompileOutputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+Done building target "_CheckForCompileOutputs" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target "CopyFilesToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "PrepareForRun" depends on it):
+Using "Copy" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Copy"
+  Did not copy from file "obj\Debug\UnSwallowExceptionsReferenceAssembly.dll" to file "bin\Debug\UnSwallowExceptionsReferenceAssembly.dll" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+Done executing task "Copy".
+Task "Message"
+  UnSwallowExceptionsReferenceAssembly -> C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll
+Done executing task "Message".
+Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+Task "Copy"
+  Did not copy from file "obj\Debug\UnSwallowExceptionsReferenceAssembly.pdb" to file "bin\Debug\UnSwallowExceptionsReferenceAssembly.pdb" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+Done executing task "Copy".
+Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+Done building target "CopyFilesToOutputDirectory" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+Target "PrepareForRun" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CoreBuild" depends on it):
+Done building target "PrepareForRun" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "UnmanagedRegistration" skipped, due to false condition; ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library') was evaluated as (''=='true' and 'Library'=='library').
+Target "_CheckForCompileOutputs" skipped. Previously built successfully.
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target "_CleanGetCurrentAndPriorFileWrites" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "IncrementalClean" depends on it):
+Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ReadLinesFromFile"
+Done executing task "ReadLinesFromFile".
+Using "ConvertToAbsolutePath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ConvertToAbsolutePath"
+Done executing task "ConvertToAbsolutePath".
+Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "FindUnderPath"
+  Comparison path is "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "bin\Debug\".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "obj\Debug\".
+Done executing task "FindUnderPath".
+Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "RemoveDuplicates"
+Done executing task "RemoveDuplicates".
+Done building target "_CleanGetCurrentAndPriorFileWrites" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "IncrementalClean" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "CoreBuild" depends on it):
+Task "FindUnderPath"
+  Comparison path is "bin\Debug\".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "obj\Debug\".
+Done executing task "FindUnderPath".
+Task "Delete"
+Done executing task "Delete".
+Task "RemoveDuplicates"
+Done executing task "RemoveDuplicates".
+Task "WriteLinesToFile" skipped, due to false condition; ('@(_CleanUnfilteredPriorFileWrites)'!='@(_CleanUniqueRemainingFileWritesAfterIncrementalClean)') was evaluated as ('C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\obj\Debug\UnSwallowExceptionsReferenceAssembly.csprojResolveAssemblyReference.cache;C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\obj\Debug\UnSwallowExceptionsReferenceAssembly.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\obj\Debug\UnSwallowExceptionsReferenceAssembly.pdb'!='C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\obj\Debug\UnSwallowExceptionsReferenceAssembly.csprojResolveAssemblyReference.cache;C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\obj\Debug\UnSwallowExceptionsReferenceAssembly.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\obj\Debug\UnSwallowExceptionsReferenceAssembly.pdb').
+Done building target "IncrementalClean" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '' and ('$(RunPostBuildEvent)' != 'OnOutputUpdated' or '$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)')) was evaluated as ('' != '' and ('' != 'OnOutputUpdated' or '' != '')).
+Target "CoreBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "Build" depends on it):
+Done building target "CoreBuild" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "AfterBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (target "Build" depends on it):
+Done building target "AfterBuild" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Target "Build" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (entry point):
+Done building target "Build" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Done Building Project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (default targets).
+
+Done executing task "MSBuild".
+Task "MSBuild"
+Project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (1) is building "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (2:2) on node 1 (GetNativeManifest target(s)).
+Building with tools version "4.0".
+Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+Target "GetNativeManifest" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (entry point):
+Done building target "GetNativeManifest" in project "UnSwallowExceptionsReferenceAssembly.csproj".
+Done Building Project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (GetNativeManifest target(s)).
+
+Done executing task "MSBuild".
+Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('..\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj' != '' and '' != '').
+Done building target "ResolveProjectReferences" in project "AssemblyToProcess.csproj".
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "GetFrameworkPaths" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target "GetInstalledSDKLocations" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "ResolveSDKReferences" depends on it):
+Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+Done building target "GetInstalledSDKLocations" in project "AssemblyToProcess.csproj".
+Target "ResolveSDKReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "ResolveAssemblyReferences" depends on it):
+Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+Done building target "ResolveSDKReferences" in project "AssemblyToProcess.csproj".
+Target "ResolveSDKReferences" skipped. Previously built successfully.
+Target "ExpandSDKReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "ResolveAssemblyReferences" depends on it):
+Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+Done building target "ExpandSDKReferences" in project "AssemblyToProcess.csproj".
+Target "ResolveAssemblyReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "ResolveReferences" depends on it):
+Task "ResolveAssemblyReference"
+  TargetFrameworkMoniker:
+      .NETFramework,Version=v4.0
+  TargetFrameworkMonikerDisplayName:
+      .NET Framework 4
+  TargetedRuntimeVersion:
+      v4.0.30319
+  Assemblies:
+      System
+      System.Xml.Linq
+      System.Data.DataSetExtensions
+      Microsoft.CSharp
+      System.Data
+      System.Xml
+      System.Core
+  AssemblyFiles:
+      C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll
+  CandidateAssemblyFiles:
+  TargetFrameworkDirectories:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+  InstalledAssemblyTables:
+  IgnoreInstalledAssemblyTable:
+      False
+  SearchPaths:
+      {CandidateAssemblyFiles}
+      {HintPathFromItem}
+      {TargetFrameworkDirectory}
+      {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}
+      {AssemblyFolders}
+      {GAC}
+      {RawFileName}
+      bin\Debug\
+  AllowedAssemblyExtensions:
+      .winmd
+      .dll
+      .exe
+  AllowedRelatedFileExtensions:
+      .pdb
+      .xml
+      .pri
+  AppConfigFile:
+      
+  AutoUnify:
+      True
+  CopyLocalDependenciesWhenParentReferenceInGac:
+      True
+  FindDependencies:
+      True
+  TargetProcessorArchitecture:
+      msil
+  StateFile:
+      obj\Debug\AssemblyToProcess.csprojResolveAssemblyReference.cache
+  InstalledAssemblySubsetTables:
+  IgnoreInstalledAssemblySubsetTable:
+      False
+  TargetFrameworkSubsets:
+  FullTargetFrameworkSubsetNames:
+      Full
+  ProfileName:
+      
+  FullFrameworkFolders:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+  LatestTargetFrameworkDirectories:
+  ProfileTablesLocation:
+  Primary reference "UnSwallowExceptionsReferenceAssembly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null".
+      Resolved file path is "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll".
+      Reference found at search path location "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll".
+      Found related file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.pdb".
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll".
+      Reference found at search path location "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll".
+      This reference is not "CopyLocal" because it's in a Frameworks directory.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.DataSetExtensions.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.DataSetExtensions.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.CSharp.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.CSharp.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll".
+      Reference found at search path location "{TargetFrameworkDirectory}".
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist.
+      This reference is not "CopyLocal" because it's a prerequisite file.
+      The ImageRuntimeVersion for this reference is "v4.0.30319".
+  Dependency "mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Retargetable=Yes".
+      Could not resolve this reference. Could not locate the assembly "mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Retargetable=Yes". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+          For SearchPath "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug".
+          Considered "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\mscorlib.winmd", but it didn't exist.
+          Considered "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\mscorlib.dll", but it didn't exist.
+          Considered "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\mscorlib.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll", but its name "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" didn't match.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+          For SearchPath "{AssemblyFolders}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\mscorlib.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\mscorlib.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\mscorlib.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Microsoft Synchronization Services\ADO.NET\v1.0\mscorlib.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Microsoft Synchronization Services\ADO.NET\v1.0\mscorlib.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Microsoft Synchronization Services\ADO.NET\v1.0\mscorlib.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\mscorlib.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\mscorlib.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\mscorlib.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\100\mscorlib.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\100\mscorlib.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\100\mscorlib.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Microsoft SQL Server\120\SDK\Assemblies\mscorlib.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Microsoft SQL Server\120\SDK\Assemblies\mscorlib.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Microsoft SQL Server\120\SDK\Assemblies\mscorlib.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Microsoft SQL Server Compact Edition\v3.5\Desktop\mscorlib.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Microsoft SQL Server Compact Edition\v3.5\Desktop\mscorlib.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Microsoft SQL Server Compact Edition\v3.5\Desktop\mscorlib.exe", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\mscorlib.winmd", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\mscorlib.dll", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\mscorlib.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\90\mscorlib.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\90\mscorlib.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\90\mscorlib.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\mscorlib.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\mscorlib.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\mscorlib.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\mscorlib.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\mscorlib.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\mscorlib.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\mscorlib.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\mscorlib.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\mscorlib.exe", but it didn't exist.
+          For SearchPath "{GAC}".
+          Considered "mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Retargetable=Yes", which was not found in the GAC.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\mscorlib.winmd", but it didn't exist.
+          Considered "bin\Debug\mscorlib.dll", but it didn't exist.
+          Considered "bin\Debug\mscorlib.exe", but it didn't exist.
+      Required by "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll".
+  There was a conflict between "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" and "mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Retargetable=Yes".
+      "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" was chosen because it was primary and "mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Retargetable=Yes" was not.
+      References which depend on "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" [C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll].
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll
+            Project file item includes which caused reference "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll".
+              C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll
+      References which depend on "mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Retargetable=Yes" [].
+          C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll
+            Project file item includes which caused reference "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll".
+              C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll
+  AssemblyFoldersEx location: "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}"
+          C:\Program Files\Reference Assemblies\Microsoft\Workflow Manager\1.0\
+          
+          
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.9\bin\plugins\Diagnostics\
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.9\ref\Caching\
+          
+          
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.8\bin\plugins\Diagnostics\
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.8\ref\Caching\
+          
+          
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.6\bin\plugins\Diagnostics\
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.6\ref\Caching\
+          
+          
+          C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\v2.3\ref\Caching\
+          C:\Program Files (x86)\Microsoft WCF Data Services\5.6.4\bin\.NETFramework\
+          C:\Program Files (x86)\Microsoft WCF Data Services\5.0\bin\.NETFramework\
+          C:\Program Files (x86)\Common Files\microsoft shared\VSTT\10.0\UITestExtensionPackages
+          C:\Program Files\Reference Assemblies\Microsoft\VSTO40\v4.0.Framework\
+          C:\Program Files\Reference Assemblies\Microsoft\VSTA30\v9.0\
+          C:\Program Files\Reference Assemblies\Microsoft\VSTA30\v8.0\
+          C:\Program Files\Reference Assemblies\Microsoft\VSTA30\v10.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office15\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office14\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Common\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office14\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office12\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Common\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\SharePoint\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v4.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\ReferenceAssemblies\v4.0\
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\ReferenceAssemblies\v4.0\
+          C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\x64\
+          c:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\
+          C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Itanium\
+          C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\
+          C:\Program Files (x86)\Microsoft Synchronization Services\ADO.NET\v1.0
+          c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Tasks
+          c:\Program Files (x86)\Microsoft SQL Server\110\DTS\PipelineComponents\
+          c:\Program Files (x86)\Microsoft SQL Server\110\DTS\ForEachEnumerators
+          c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Connections\
+          C:\Program Files (x86)\Microsoft SQL Server Compact Edition\v3.5\Desktop
+          c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\TEMPLATE\WorkflowActivities\
+          
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\WorkflowActivities\
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\ISAPI\
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\
+          C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\ReportViewer\
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\
+          c:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\
+          C:\Program Files (x86)\Open XML SDK\V2.5\lib
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\2.0\Runtime\v4.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.0.0\Type Providers\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.0.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.4.0.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.0.0\Type Providers\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.0.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtime\v4.0\Type Providers\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtime\v4.0\
+          C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\.NETFramework\v4.0\Prototyping\Libraries\
+          C:\Program Files (x86)\Microsoft SDKs\Expression\Extensions\FXG\Libraries\.NETFramework\v4.0\
+          C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\.NETFramework\v4.0\Libraries\
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VSTSDB\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\Assemblies\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 3\Assemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 14.0\ReportViewer\
+          
+          C:\Program Files\Reference Assemblies\Microsoft\Microsoft Identity Extensions\1.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\VSTO\v9.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\VSTO\v8.0\
+          C:\Program Files\Reference Assemblies\Microsoft\VSTO40\v9.0\
+          C:\Program Files\Reference Assemblies\Microsoft\VSTO40\v10.0\
+          C:\Program Files (x86)\Common Files\Microsoft Shared\VS7DEBUG\Program Files\Reference Assemblies\Microsoft\VSTA30\v11.0\.NET2.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\VSTA\v9.0\
+          C:\Program Files\Reference Assemblies\Microsoft\VSTA30\v9.0\
+          C:\Program Files\Reference Assemblies\Microsoft\VSTA30\v10.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office14\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office12\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Common\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\SharePoint\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v2.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\
+          C:\Program Files (x86)\Common Files\Microsoft Shared\Visual Basic Power Packs\1.1\
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          C:\Program Files (x86)\Microsoft Synchronization Services\ADO.NET\v1.0
+          C:\Program Files (x86)\Microsoft SDKs\Microsoft Sync Framework\v1.0\Runtime\ADO.NET\V2.0\x64\
+          C:\Program Files (x86)\Microsoft SQL Server Compact Edition\v4.0\Desktop
+          C:\Program Files (x86)\Microsoft SQL Server Compact Edition\v3.5\Desktop
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.9\ref
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.8\ref
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.6\ref
+          C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\v2.3\ref
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\ReportViewer\
+          c:\Program Files (x86)\Microsoft Visual Studio 9.0\ReportViewer\
+          C:\Program Files (x86)\Microsoft Visual Studio 8\ReportViewer\
+          c:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies\
+          C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PublicAssemblies\
+          c:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 9.0\Visual Studio Tools for Office\PIA\Office12\
+          C:\Program Files (x86)\Microsoft Visual Studio 9.0\Visual Studio Tools for Office\PIA\Office11\
+          C:\Program Files (x86)\Microsoft Chart Controls\Assemblies
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\2.0\Runtime\v2.0\
+          C:\Program Files (x86)\Microsoft SDKs\Microsoft Sync Framework\v1.0\Runtime\x86\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v2.0\2.3.0.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v2.0\2.3.0.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtime\v2.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Blend\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Blend\
+          C:\Program Files (x86)\Business Objects\Common\2.8\managed\
+          C:\Program Files (x86)\Common Files\Business Objects\2.7\Managed\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 2\Assemblies\
+          c:\Program Files\Microsoft SQL Server\110\DTS\Tasks
+          c:\Program Files\Microsoft SQL Server\110\DTS\PipelineComponents\
+          c:\Program Files\Microsoft SQL Server\110\DTS\ForEachEnumerators
+          c:\Program Files\Microsoft SQL Server\110\DTS\Connections\
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.9\ref
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.8\ref
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.6\ref
+          C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\v2.3\ref
+Done executing task "ResolveAssemblyReference".
+Done building target "ResolveAssemblyReferences" in project "AssemblyToProcess.csproj".
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target "AfterResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "ResolveReferences" depends on it):
+Done building target "AfterResolveReferences" in project "AssemblyToProcess.csproj".
+Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+Target "ResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CoreBuild" depends on it):
+Done building target "ResolveReferences" in project "AssemblyToProcess.csproj".
+Target "XamlMarkupCompilePass1" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileReadGeneratedFileList" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileAddFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompilePass2" skipped, due to false condition; ('$(XamlRequiresCompilationPass2)' == 'true' ) was evaluated as ('false' == 'true' ).
+Target "XamlMarkupCompileReadPass2Flag" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "XamlMarkupCompileAddExtensionFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+Target "MarkupCompilePass1" skipped, due to false condition; ('@(Page)' != '' or '@(ApplicationDefinition)' != '' ) was evaluated as ('' != '' or '' != '' ).
+Target "AfterMarkupCompilePass1" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "PrepareResources" depends on it):
+Done building target "AfterMarkupCompilePass1" in project "AssemblyToProcess.csproj".
+Target "MarkupCompilePass2ForMainAssembly" skipped, due to false condition; ('$(_RequireMCPass2ForMainAssembly)' == 'true' ) was evaluated as ('false' == 'true' ).
+Target "FileClassification" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "PrepareResources" depends on it):
+Task "FileClassifier" skipped, due to false condition; ('@(GeneratedBaml)' != '' or '@(Resource)' != '' or '@(Font)' != '') was evaluated as ('' != '' or '' != '' or '' != '').
+Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+Done building target "FileClassification" in project "AssemblyToProcess.csproj".
+Target "MainResourcesGeneration" skipped, due to false condition; ('@(MainEmbeddedFiles)' != '') was evaluated as ('' != '').
+Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+Target "AssignTargetPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "PrepareResourceNames" depends on it):
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+Done building target "AssignTargetPaths" in project "AssemblyToProcess.csproj".
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target "SplitResourcesByCulture" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "PrepareResourceNames" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+Task "AssignCulture"
+Done executing task "AssignCulture".
+Done building target "SplitResourcesByCulture" in project "AssemblyToProcess.csproj".
+Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+Target "CreateCustomManifestResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "PrepareResourceNames" depends on it):
+Done building target "CreateCustomManifestResourceNames" in project "AssemblyToProcess.csproj".
+Target "PrepareResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "PrepareResources" depends on it):
+Done building target "PrepareResourceNames" in project "AssemblyToProcess.csproj".
+Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+Target "SplitResourcesByCulture" skipped. Previously built successfully.
+Target "BeforeResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "ResGen" depends on it):
+Done building target "BeforeResGen" in project "AssemblyToProcess.csproj".
+Target "CoreResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "ResGen" depends on it):
+Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' != 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CLR4' != 'CLR2').
+Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' == 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CLR4' == 'CLR2').
+Done building target "CoreResGen" in project "AssemblyToProcess.csproj".
+Target "AfterResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "ResGen" depends on it):
+Done building target "AfterResGen" in project "AssemblyToProcess.csproj".
+Target "ResGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "PrepareResources" depends on it):
+Done building target "ResGen" in project "AssemblyToProcess.csproj".
+Target "CompileLicxFiles" skipped, due to false condition; ('@(_LicxFile)'!='') was evaluated as (''!='').
+Target "PrepareRdlFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v10.0\ReportingServices\Microsoft.ReportingServices.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CompileRdlFiles" depends on it):
+Task "CreateItem" skipped, due to false condition; ('%(Extension)'=='.rdlc') was evaluated as (''=='.rdlc').
+Done building target "PrepareRdlFiles" in project "AssemblyToProcess.csproj".
+Target "RunRdlCompiler" skipped, due to false condition; ('@(RdlFile)'!='') was evaluated as (''!='').
+Target "CompileRdlFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v10.0\ReportingServices\Microsoft.ReportingServices.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "PrepareResources" depends on it):
+Done building target "CompileRdlFiles" in project "AssemblyToProcess.csproj".
+Target "PrepareResources" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CoreBuild" depends on it):
+Done building target "PrepareResources" in project "AssemblyToProcess.csproj".
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+Target "ResolveReferences" skipped. Previously built successfully.
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "_SetExternalWin32ManifestProperties" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='') was evaluated as (''=='true' or ''!='' or ''!='').
+Target "_SetEmbeddedWin32ManifestProperties" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "SetWin32ManifestProperties" depends on it):
+Task "GetFrameworkPath"
+Done executing task "GetFrameworkPath".
+Done building target "_SetEmbeddedWin32ManifestProperties" in project "AssemblyToProcess.csproj".
+Target "SetWin32ManifestProperties" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "Compile" depends on it):
+Done building target "SetWin32ManifestProperties" in project "AssemblyToProcess.csproj".
+Target "_GenerateCompileInputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "Compile" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithNoCulture)'!='' and '%(ManifestResourceWithNoCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithNoCultureOnDisk)'!='' and '%(ManifestNonResxWithNoCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Done building target "_GenerateCompileInputs" in project "AssemblyToProcess.csproj".
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "_SetTargetFrameworkMonikerAttribute" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "GenerateTargetFrameworkMonikerAttribute" depends on it):
+Done building target "_SetTargetFrameworkMonikerAttribute" in project "AssemblyToProcess.csproj".
+Target "GenerateTargetFrameworkMonikerAttribute" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "BeforeCompile" depends on it):
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+Input files: C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets
+Output files: C:\Users\nchamberlain\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs
+Done building target "GenerateTargetFrameworkMonikerAttribute" in project "AssemblyToProcess.csproj".
+Target "GenerateAdditionalSources" skipped, due to false condition; ('@(AssemblyAttributes)' != '' and '$(GenerateAdditionalSources)' == 'true') was evaluated as ('' != '' and '' == 'true').
+Target "BeforeCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "Compile" depends on it):
+Done building target "BeforeCompile" in project "AssemblyToProcess.csproj".
+Target "_TimeStampBeforeCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+Target "_ComputeNonExistentFileProperty" skipped, due to false condition; (('$(BuildingInsideVisualStudio)' == 'true') and ('$(BuildingOutOfProcess)' != 'true') and (('$(BuildingProject)' == 'false') or ('$(UseHostCompilerIfAvailable)' == 'true'))) was evaluated as (('' == 'true') and ('' != 'true') and (('true' == 'false') or ('true' == 'true'))).
+Target "PreXsdCodeGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CoreCompile" depends on it):
+Task "CallTarget"
+Target "CleanXsdCodeGen" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "PreXsdCodeGen" depends on it):
+Task "Delete"
+Done executing task "Delete".
+Done building target "CleanXsdCodeGen" in project "AssemblyToProcess.csproj".
+Done executing task "CallTarget".
+Done building target "PreXsdCodeGen" in project "AssemblyToProcess.csproj".
+Target "XsdCodeGen" skipped, due to false condition; ( '$(XsdCodeGenPreCondition)' == 'True' ) was evaluated as ( 'False' == 'True' ).
+Target "CoreCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "Compile" depends on it):
+Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+Input files: OnException.cs;C:\Users\nchamberlain\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.CSharp.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.DataSetExtensions.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.props;C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets
+Output files: obj\Debug\AssemblyToProcess.dll;obj\Debug\AssemblyToProcess.pdb
+Done building target "CoreCompile" in project "AssemblyToProcess.csproj".
+Target "_TimeStampAfterCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+Target "AfterCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "Compile" depends on it):
+Done building target "AfterCompile" in project "AssemblyToProcess.csproj".
+Target "PrepareResourcesForSatelliteAssemblies" skipped, due to false condition; ('$(UICulture)' != '') was evaluated as ('' != '').
+Target "MergeLocalizationDirectives" skipped, due to false condition; ('@(GeneratedLocalizationFiles)' !='') was evaluated as ('' !='').
+Target "AfterCompileWinFX" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "_AfterCompileWinFXInternal" depends on it):
+Done building target "AfterCompileWinFX" in project "AssemblyToProcess.csproj".
+Target "_AfterCompileWinFXInternal" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "Compile" depends on it):
+Done building target "_AfterCompileWinFXInternal" in project "AssemblyToProcess.csproj".
+Target "Compile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CoreBuild" depends on it):
+Done building target "Compile" in project "AssemblyToProcess.csproj".
+Target "ExportWindowsMDFile" skipped, due to false condition; ('$(ExportWinMDFile)' == 'true') was evaluated as ('' == 'true').
+Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'Library' != 'library') or
+                    ('' == '')) and
+                   Exists('obj\AssemblyToProcess.csproj.UnmanagedRegistration.cache')).
+Target "GenerateSerializationAssemblies" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target "_GenerateSatelliteAssemblyInputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CreateSatelliteAssemblies" depends on it):
+Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Done building target "_GenerateSatelliteAssemblyInputs" in project "AssemblyToProcess.csproj".
+Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+Target "CreateSatelliteAssemblies" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CoreBuild" depends on it):
+Done building target "CreateSatelliteAssemblies" in project "AssemblyToProcess.csproj".
+Target "GenerateManifests" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='' or '$(GenerateAppxManifest)' == 'true') was evaluated as (''=='true' or ''!='' or ''!='' or '' == 'true').
+Target "GetTargetPath" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CoreBuild" depends on it):
+Done building target "GetTargetPath" in project "AssemblyToProcess.csproj".
+Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+Target "_CopyFilesMarkedCopyLocal" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+Task "Copy"
+  Did not copy from file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll" to file "bin\Debug\UnSwallowExceptionsReferenceAssembly.dll" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+  Did not copy from file "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\bin\Debug\UnSwallowExceptionsReferenceAssembly.pdb" to file "bin\Debug\UnSwallowExceptionsReferenceAssembly.pdb" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+Done executing task "Copy".
+Done building target "_CopyFilesMarkedCopyLocal" in project "AssemblyToProcess.csproj".
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "AssemblyToProcess.csproj".
+Target "GetCopyToOutputDirectoryItems" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+Task "MSBuild"
+Project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (1) is building "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (2:3) on node 1 (GetCopyToOutputDirectoryItems target(s)).
+Building with tools version "4.0".
+Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+Target "GetCopyToOutputDirectoryItems" skipped. Previously built successfully.
+Done Building Project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\UnSwallowExceptionReferenceAssembly\UnSwallowExceptionsReferenceAssembly.csproj" (GetCopyToOutputDirectoryItems target(s)).
+
+Done executing task "MSBuild".
+Task "AssignTargetPath"
+Done executing task "AssignTargetPath".
+Done building target "GetCopyToOutputDirectoryItems" in project "AssemblyToProcess.csproj".
+Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopySourceItemsToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+Done building target "_CopySourceItemsToOutputDirectory" in project "AssemblyToProcess.csproj".
+Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+Target "_CheckForCompileOutputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+Done building target "_CheckForCompileOutputs" in project "AssemblyToProcess.csproj".
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target "CopyFilesToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "PrepareForRun" depends on it):
+Task "Copy"
+  Did not copy from file "obj\Debug\AssemblyToProcess.dll" to file "bin\Debug\AssemblyToProcess.dll" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+Done executing task "Copy".
+Task "Message"
+  AssemblyToProcess -> C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\bin\Debug\AssemblyToProcess.dll
+Done executing task "Message".
+Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+Task "Copy"
+  Did not copy from file "obj\Debug\AssemblyToProcess.pdb" to file "bin\Debug\AssemblyToProcess.pdb" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+Done executing task "Copy".
+Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+Done building target "CopyFilesToOutputDirectory" in project "AssemblyToProcess.csproj".
+Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+Target "PrepareForRun" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CoreBuild" depends on it):
+Done building target "PrepareForRun" in project "AssemblyToProcess.csproj".
+Target "UnmanagedRegistration" skipped, due to false condition; ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library') was evaluated as (''=='true' and 'Library'=='library').
+Target "_CheckForCompileOutputs" skipped. Previously built successfully.
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target "_CleanGetCurrentAndPriorFileWrites" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "IncrementalClean" depends on it):
+Task "ReadLinesFromFile"
+Done executing task "ReadLinesFromFile".
+Task "ConvertToAbsolutePath"
+Done executing task "ConvertToAbsolutePath".
+Task "FindUnderPath"
+  Comparison path is "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "bin\Debug\".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "obj\Debug\".
+Done executing task "FindUnderPath".
+Task "RemoveDuplicates"
+Done executing task "RemoveDuplicates".
+Done building target "_CleanGetCurrentAndPriorFileWrites" in project "AssemblyToProcess.csproj".
+Target "IncrementalClean" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "CoreBuild" depends on it):
+Task "FindUnderPath"
+  Comparison path is "bin\Debug\".
+Done executing task "FindUnderPath".
+Task "FindUnderPath"
+  Comparison path is "obj\Debug\".
+Done executing task "FindUnderPath".
+Task "Delete"
+Done executing task "Delete".
+Task "RemoveDuplicates"
+Done executing task "RemoveDuplicates".
+Task "WriteLinesToFile" skipped, due to false condition; ('@(_CleanUnfilteredPriorFileWrites)'!='@(_CleanUniqueRemainingFileWritesAfterIncrementalClean)') was evaluated as ('C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\bin\Debug\AssemblyToProcess.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\bin\Debug\AssemblyToProcess.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\obj\Debug\AssemblyToProcess.csprojResolveAssemblyReference.cache;C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\obj\Debug\AssemblyToProcess.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\obj\Debug\AssemblyToProcess.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\bin\Debug\UnSwallowExceptionsReferenceAssembly.pdb'!='C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\bin\Debug\AssemblyToProcess.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\bin\Debug\AssemblyToProcess.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\obj\Debug\AssemblyToProcess.csprojResolveAssemblyReference.cache;C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\obj\Debug\AssemblyToProcess.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\obj\Debug\AssemblyToProcess.pdb;C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\bin\Debug\UnSwallowExceptionsReferenceAssembly.dll;C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\bin\Debug\UnSwallowExceptionsReferenceAssembly.pdb').
+Done building target "IncrementalClean" in project "AssemblyToProcess.csproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '' and ('$(RunPostBuildEvent)' != 'OnOutputUpdated' or '$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)')) was evaluated as ('' != '' and ('' != 'OnOutputUpdated' or '' != '')).
+Target "CoreBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "Build" depends on it):
+Done building target "CoreBuild" in project "AssemblyToProcess.csproj".
+Target "AfterBuild" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (target "Build" depends on it):
+Done building target "AfterBuild" in project "AssemblyToProcess.csproj".
+Target "Build" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" from project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (entry point):
+Done building target "Build" in project "AssemblyToProcess.csproj".
+Done Building Project "C:\Users\nchamberlain\Desktop\BasicFodyAddin\AssemblyToProcess\AssemblyToProcess.csproj" (default targets).
+
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63

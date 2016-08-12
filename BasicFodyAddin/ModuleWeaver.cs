@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Linq;
+using BasicFodyAddin.Fody;
 using Mono.Cecil;
 using Mono.Cecil.Rocks;
 using Mono.Cecil.Cil;
+using Mono.Collections.Generic;
 
 public class ModuleWeaver
 {
@@ -23,33 +25,62 @@ public class ModuleWeaver
     public void Execute()
     {
         typeSystem = ModuleDefinition.TypeSystem;
-        var newType = new TypeDefinition(null, "Hello", TypeAttributes.Public, typeSystem.Object);
+        var allTypes = ModuleDefinition.GetAllTypes();
+        foreach (var type in allTypes)
+        {
+            var allMethods = type.GetMethods();
+            foreach (var method in allMethods)
+            {
+                CustomAttribute unSwallowAttribute;
+                if (!TryGetCustomAttribute(method, "UnSwallowExceptions.Fody.UnSwallowExceptionsAttribute", out unSwallowAttribute)) continue;
 
-        AddConstructor(newType);
-
-        AddHelloWorld(newType);
-
-        ModuleDefinition.Types.Add(newType);
-        LogInfo("Added type 'Hello' with method 'World'.");
+                Console.Write("UnSwallowException attribute found");
+                ProcessMethodDefinition(method);
+            }
+        }
     }
 
-    void AddConstructor(TypeDefinition newType)
+    private bool TryGetCustomAttribute(MethodDefinition method, string attributeType, out CustomAttribute result)
     {
-        var method = new MethodDefinition(".ctor", MethodAttributes.Public | MethodAttributes.SpecialName | MethodAttributes.RTSpecialName, typeSystem.Void);
-        var objectConstructor = ModuleDefinition.Import(typeSystem.Object.Resolve().GetConstructors().First());
-        var processor = method.Body.GetILProcessor();
-        processor.Emit(OpCodes.Ldarg_0);
-        processor.Emit(OpCodes.Call, objectConstructor);
-        processor.Emit(OpCodes.Ret);
-        newType.Methods.Add(method);
+        result = null;
+        if (!method.HasCustomAttributes)
+            return false;
+
+        foreach (CustomAttribute attribute in method.CustomAttributes)
+        {
+            if (attribute.AttributeType.FullName != attributeType)
+                continue;
+
+            result = attribute;
+            return true;
+        }
+
+        return false;
     }
 
-    void AddHelloWorld( TypeDefinition newType)
+    private void ProcessMethodDefinition(MethodDefinition method)
     {
-        var method = new MethodDefinition("World", MethodAttributes.Public, typeSystem.String);
-        var processor = method.Body.GetILProcessor();
-        processor.Emit(OpCodes.Ldstr, "Hello World");
-        processor.Emit(OpCodes.Ret);
-        newType.Methods.Add(method);
+        MethodBody body = method.Body;
+        body.SimplifyMacros();
+        ILProcessor ilProcessor = body.GetILProcessor();
+
+        if (body.HasExceptionHandlers)
+        {
+            foreach (var exceptionHandler in body.ExceptionHandlers)
+            {
+                Console.WriteLine("TryStart: {0} {1}", exceptionHandler.TryStart.OpCode, exceptionHandler.TryStart.Operand);
+                Console.WriteLine("TryStart: {0} {1}", exceptionHandler.TryStart.Next.OpCode, exceptionHandler.TryStart.Next.Operand);
+                Console.WriteLine("TryEnd: {0} {1}", exceptionHandler.TryEnd.OpCode, exceptionHandler.TryEnd.Operand);
+                Console.WriteLine("TryEnd: {0} {1}", exceptionHandler.TryEnd.Next.OpCode, exceptionHandler.TryEnd.Next.Operand);
+                Console.WriteLine("HandlerStart: {0} {1}", exceptionHandler.HandlerStart.Next.OpCode, exceptionHandler.HandlerStart.Next.Operand);
+                Console.WriteLine("HandlerEnd: {0} {1}", exceptionHandler.HandlerEnd.Next.OpCode, exceptionHandler.HandlerEnd.Next.Operand);
+            }
+            //ilProcessor.Remove(body.ExceptionHandlers[0].TryStart);
+            //ilProcessor.Remove(body.ExceptionHandlers[0].TryEnd);
+            //ilProcessor.Remove(body.ExceptionHandlers[0].HandlerStart.Previous, Instruction.Create(OpCodes.Nop));
+            //ilProcessor.Remove(body.ExceptionHandlers[0].HandlerEnd.Next, Instruction.Create(OpCodes.Nop));
+        }
+        body.InitLocals = true;
+        body.OptimizeMacros();
     }
 }
