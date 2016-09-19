@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Linq.Expressions;
 using BasicFodyAddin.Fody;
 using Mono.Cecil;
 using Mono.Cecil.Rocks;
@@ -34,7 +35,6 @@ public class ModuleWeaver
                 CustomAttribute unSwallowAttribute;
                 if (!TryGetCustomAttribute(method, "UnSwallowExceptions.Fody.UnSwallowExceptionsAttribute", out unSwallowAttribute)) continue;
 
-                Console.Write("UnSwallowException attribute found");
                 ProcessMethodDefinition(method);
             }
         }
@@ -66,19 +66,10 @@ public class ModuleWeaver
 
         if (body.HasExceptionHandlers)
         {
-            foreach (var exceptionHandler in body.ExceptionHandlers)
+            for (int i = 0; i < body.ExceptionHandlers.Count; i++) 
             {
-                Console.WriteLine("TryStart: {0} {1}", exceptionHandler.TryStart.OpCode, exceptionHandler.TryStart.Operand);
-                Console.WriteLine("TryStart: {0} {1}", exceptionHandler.TryStart.Next.OpCode, exceptionHandler.TryStart.Next.Operand);
-                Console.WriteLine("TryEnd: {0} {1}", exceptionHandler.TryEnd.OpCode, exceptionHandler.TryEnd.Operand);
-                Console.WriteLine("TryEnd: {0} {1}", exceptionHandler.TryEnd.Next.OpCode, exceptionHandler.TryEnd.Next.Operand);
-                Console.WriteLine("HandlerStart: {0} {1}", exceptionHandler.HandlerStart.Next.OpCode, exceptionHandler.HandlerStart.Next.Operand);
-                Console.WriteLine("HandlerEnd: {0} {1}", exceptionHandler.HandlerEnd.Next.OpCode, exceptionHandler.HandlerEnd.Next.Operand);
+                ilProcessor.InsertAfter(body.ExceptionHandlers[i].HandlerStart, Instruction.Create(OpCodes.Rethrow));
             }
-            //ilProcessor.Remove(body.ExceptionHandlers[0].TryStart);
-            //ilProcessor.Remove(body.ExceptionHandlers[0].TryEnd);
-            //ilProcessor.Remove(body.ExceptionHandlers[0].HandlerStart.Previous, Instruction.Create(OpCodes.Nop));
-            //ilProcessor.Remove(body.ExceptionHandlers[0].HandlerEnd.Next, Instruction.Create(OpCodes.Nop));
         }
         body.InitLocals = true;
         body.OptimizeMacros();
